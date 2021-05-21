@@ -50,4 +50,4 @@ client.on("message", async message => {
 });
 
 //Log into discord using the token in config.json
-client.login(config.token);
+client.login(process.env.token);
